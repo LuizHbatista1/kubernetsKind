@@ -1,0 +1,4 @@
+sudo kubectl run --image hashicorp/terraform:latest terraform-demo --dry-run=client -oyaml
+E0103 13:28:05.564386   12622 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": read tcp 127.0.0.1:52158->127.0.0.1:8080: read: connection reset by peer - error from a previous attempt: read tcp 127.0.0.1:52142->127.0.0.1:8080: read: connection reset by peer"
+error: Get "http://localhost:8080/api?timeout=32s": read tcp 127.0.0.1:52158->127.0.0.1:8080: read: connection reset by peer - error from a previous attempt: read tcp 127.0.0.1:52142->127.0.0.1:8080: read: connection reset by peer
+
